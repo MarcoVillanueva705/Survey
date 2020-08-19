@@ -8,6 +8,7 @@ namespace Survey
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
+            //WriteTryAgain()
             var name = Console.ReadLine();
 
             Console.WriteLine("What is your age?");
