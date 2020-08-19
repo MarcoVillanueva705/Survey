@@ -4,6 +4,7 @@ namespace Survey
 {
     class Program
     {
+        //adding functions to exercise tomorrow
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
