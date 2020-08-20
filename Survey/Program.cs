@@ -20,10 +20,14 @@ namespace Survey
             Console.WriteLine($"Your name is: { name }");
             Console.WriteLine($"Your age is { age }");
 
-            if (month == "March")
+            if (month == "" || name == "" || age == "")
             {
-                Console.WriteLine("You are an Aries!");
+                Console.WriteLine("Inavlid entry!");
             }
+        }
+        static void writeTryAgain()
+        {
+            Console.WriteLine("You can't leave field blank!");
         }
     }
 }
