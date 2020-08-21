@@ -10,6 +10,7 @@ namespace Survey
             var name = "";
             var age = "";
             var month = "";
+            //attempt DRY
 
             while (name == "") { 
 
