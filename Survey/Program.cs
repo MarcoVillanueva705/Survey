@@ -11,6 +11,7 @@ namespace Survey
             var age = "";
             var month = "";
             //attempt DRY
+            //research sep of resp
 
             while (name == "") { 
 
